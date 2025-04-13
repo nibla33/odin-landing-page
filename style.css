@@ -1,3 +1,7 @@
+* {
+    font-family: "Roboto", Arial, sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -6,6 +10,7 @@ body {
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -16,6 +21,10 @@ body {
 
 }
 
+.website-info{
+    background-color: #1F2937;
+    color: white;
+}
 ul .header-links{
     margin:0;
     padding:0;
