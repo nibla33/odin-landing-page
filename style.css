@@ -1,3 +1,22 @@
-h1 {
-    background-color: blue;
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-links{
+    display:flex;
+    list-style-type: none;
+    gap: 10px;
+
+}
+
+ul .header-links{
+    margin:0;
+    padding:0;
 }
