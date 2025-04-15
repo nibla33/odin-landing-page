@@ -21,9 +21,49 @@ body {
     gap: 10px;
 
 }
+.header-links, .secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+.button{
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 6px;
+    border-style: none;
+    font-weight: 900;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.logo{
+    font-size: 24px;
+    color:#f9faf8;
+}
 
 .website-info{
+    display: flex;
+    flex-direction: column;
     background-color: #1F2937;
+  
+}
+
+.signup{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.signup-image{
+    max-width: fit-content;
+    max-height: 300px;
+    display:inline-block;
+}
+
+.signup-heading {
+    font-size: 48px;
+    font-weight: 900;
     color: #f9faf8;
 }
 
