@@ -23,10 +23,13 @@ body {
 }
 
 .website-info{
-    padding-left: 200px;
-    padding-right: 200px;
     background-color: #1F2937;
     color: #f9faf8;
+}
+
+.content{
+    padding-left: 200px;
+    padding-right: 200px;
 }
 ul .header-links{
     margin:0;
