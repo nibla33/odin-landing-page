@@ -59,6 +59,9 @@ body {
     max-width: fit-content;
     max-height: 300px;
     display:inline-block;
+    border: solid #3882F6;
+    border-radius: 40px;
+    border-width: 7px;
 }
 
 .signup-heading {
