@@ -169,3 +169,12 @@ ul .header-links{
     border-width: 1px;
     font-weight: bold;
 }
+.footer-section{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+.footer{
+    padding: 20px;
+    color: #E5E7EB
+}
