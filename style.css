@@ -133,3 +133,39 @@ ul .header-links{
     font-style: italic;
     color: #1F2937;
 }
+.call-section{
+    background-color: #f9faf8;
+}
+
+.call-box,.call-button,.action-text,.action-header {
+    background-color: #3882F6;
+    color: #f9faf8;
+}
+.call-box {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+    padding: 30px;
+}
+
+.action-header{
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.action-text {
+    margin-top: 2px;
+}
+
+.call-button {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: solid #f9faf8;
+    border-radius: 10px;
+    border-width: 1px;
+    font-weight: bold;
+}
