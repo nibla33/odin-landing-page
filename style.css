@@ -75,3 +75,11 @@ ul .header-links{
     margin:0;
     padding:0;
 }
+
+.infobox-image{
+    max-width: 300px;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+}
